@@ -52,7 +52,9 @@ Velg en request og trykk send to repeater for å endre på den og sende på nytt
 3. Klarer du å finne en gyldig innlogging?
     <details>
       <summary>💡 Hint</summary>
-    Finn en ordliste og bruk Turbo intruder extension for å unngå throttling. Legg inn riktig tid til ordlisten
+    
+      Siden Intruder har ganske kraftige begrensnigner på hvor mange kall man kan gjøre i sekundet er den ikke spesielt godt egnet til å gjøre noe reell brute forcing. Heldigvis er Burp Suite utvidbart og noen har selvfølgelig laget en utvidelse som gir deg kraftigere funksjonalitet. [Følg denne guiden](https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack) for å installere og bruke Turbo Intruder til å brute force brukernavn og passord på innloggingssiden. [Denne listen med vanlige brukernavn og passord](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou-75.txt) er fin å bruke.
+  
     </details>
   
 <details>
