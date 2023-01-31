@@ -43,7 +43,7 @@ Velg en request og trykk send to repeater for å endre på den og sende på nytt
     
     Høyreklikk på GET-kallet til forsiden og velg Send to Intruder. Legg til to paragraftegn (§§) etter GET /. Dette forteller Intruder hvor den skal injisere payloaden vi definerer i neste steg.
     
-    Velg deretter fanen Payloads. Her velger man hvilke payloads Intruder skal bruke. For denne oppgaven kan vi bruke en liste med typiske stier på nettsider. Lim inn innholdet i [denne fila]() under Payload Options og velg Start attack.
+    Velg deretter fanen Payloads. Her velger man hvilke payloads Intruder skal bruke. For denne oppgaven kan vi bruke en liste med typiske stier på nettsider. Lim inn innholdet i [denne fila](common-web-paths.txt) under Payload Options og velg Start attack.
     
     Finner du noen sider som returnerer en 2XX-respons? Hvis ikke kan det hende webserveren vi gjør kall mot skiller mellom store og små bokstaver. Endre payloaden til lowercase ved å velge Add under Payload Processing. Deretter Modify case, To lower case og OK. Kjør intruder på nytt.
 
