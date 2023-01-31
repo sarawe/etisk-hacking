@@ -10,7 +10,7 @@ For å unngå for mye unødvendig trafikk i Burp Suite kan det være lurt å goo
 Trafikk inspiseres i ``` HTTP history ``` under ``` proxy ``` eller i ``` sitemap ``` under ``` target ```
 Velg en request og trykk send to repeater for å endre på den og sende på nytt
 
-## Oppgaver
+## Oppgaver på Hacker101
 
 ### Postbook
 1. Trykk deg rundt og finn ut hvordan applikasjonen fungerer
