@@ -3,25 +3,27 @@
 ## Kom i gang
 1. Start Burp Suite
 2. Gå til ``` Proxy ``` og trykk ``` Open browser ```. Da får du en nettleser satt opp med HTTP proxy
-3. Gå til https://ctf.hacker101.com/auth/login (?) fra nettleservinduet som åpnet seg
+3. Gå til https://ctf.hacker101.com/auth/login fra nettleservinduet som åpnet seg. Når intercept er på må du trygge ``` Forward ``` for at requestene skal bli sendt.
 
 For å unngå for mye unødvendig trafikk i Burp Suite kan det være lurt å google i et annet nettleservindu.
 
-Trafikk inspiseres i ``` HTTP history ``` under ``` proxy ``` eller i ``` sitemap ``` under ``` target ```
-Velg en request og trykk send to repeater for å endre på den og sende på nytt.
+Trafikk inspiseres i ``` HTTP history ``` under ``` proxy ``` eller i ``` sitemap ``` under ``` target ```. Velg en request, høyreklikk og trykk send to repeater for å endre på den og sende på nytt.
 
 ## Oppgaver på Hacker101
 
 ### Postbook
 1. Trykk deg rundt og finn ut hvordan applikasjonen fungerer
-  - Lag bruker
-  - Logg inn
+  - Lag en bruker og logg inn
   - Opprett en post
   
 2. Klarer du å se noen andre sin post?
     <details>
       <summary>💡 Hint</summary>
     Klikk for å se på en av dine poster og se på requesten. Er det noe du kan endre der?
+    </details>
+    <details>
+      <summary>🚨 Løsning</summary>
+    Trykk på en av dine egne poster. Finn requesten under HTTP History. Høyreklikk på requesten og trykk Send to repeater. Gå til Repeater i menyen. Endre id-parameteret i requesten til feks 1 (GET /index.php?page=view.php&id=1) og trykk send. I responsen vil du se en annen person sin post. 
     </details>
  
 3. Klarer du å endre en annen post?
