@@ -61,3 +61,4 @@ Trafikk inspiseres i ``` HTTP history ``` under ``` proxy ``` eller i ``` sitema
   
     </details>
   
+  Hvis du er ferdig med alle oppgavene her er det bare å gå løs på flere oppgaver på Hacker101 💪
