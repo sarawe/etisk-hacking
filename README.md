@@ -55,7 +55,7 @@ Trafikk inspiseres i ``` HTTP history ``` under ``` proxy ``` eller i ``` sitema
     <details>
       <summary>💡 Hint</summary>
     
-      Siden Intruder har kraftige begrensnigner på hvor mange kall man kan gjøre i sekundet er den ikke spesielt godt egnet til å gjøre noe reell brute-forcing. Heldigvis har noen laget en utvidelse som gir deg kraftigere funksjonalitet. [Følg denne guiden](https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack) for å installere og bruke Turbo Intruder til å brute-force brukernavn og passord på innloggingssiden. [Denne listen med vanlige brukernavn og passord](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Leaked-Databases/rockyou-75.txt) er for eksempel fin å bruke.
+      Siden Intruder har kraftige begrensnigner på hvor mange kall man kan gjøre i sekundet er den ikke spesielt godt egnet til å gjøre noe reell brute-forcing. Heldigvis har noen laget en utvidelse som gir deg kraftigere funksjonalitet. [Følg denne guiden](https://portswigger.net/research/turbo-intruder-embracing-the-billion-request-attack) for å installere og bruke Turbo Intruder til å brute-force brukernavn og passord på innloggingssiden. Disse listene med [vanlige brukernavn](https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/names.txt) og [passord](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt) er for eksempel fin å bruke.
   
     Start med å finne et gyldig brukernavn. Deretter kan du brute-force passordet til brukeren. Det kan være lurt å filtrere vekk responser som indikerer at brukernavnet eller passordet er feil i resultattabellen.
   
