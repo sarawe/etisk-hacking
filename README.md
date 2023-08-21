@@ -3,7 +3,7 @@
 ## Kom i gang
 1. Start Burp Suite
 2. Gå til ``` Proxy ``` og trykk ``` Open browser ```. Da får du en nettleser satt opp med HTTP proxy
-3. Gå til https://ctf.hacker101.com/auth/login fra nettleservinduet som åpnet seg. Når intercept er på må du trygge ``` Forward ``` for at requestene skal bli sendt.
+3. Gå til https://ctf.hacker101.com/auth/login fra nettleservinduet som åpnet seg. Når intercept er på må du trykke ``` Forward ``` for at requestene skal bli sendt.
 
 For å unngå for mye unødvendig trafikk i Burp Suite kan det være lurt å google i et annet nettleservindu.
 
